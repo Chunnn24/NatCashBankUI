@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:id="@+id/Ll_menu"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_gravity="center"
+                android:background="@drawable/transfermn_menu"
+                android:scaleType="fitXY"
+                android:id="@+id/btn_menu"
+                app:srcCompat = "@drawable/imgtfmoney"
+                android:padding="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <TextView
+                android:layout_below="@+id/btn_menu"
+                android:id="@+id/txt_menu"
+                android:layout_width="100dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:text="text"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

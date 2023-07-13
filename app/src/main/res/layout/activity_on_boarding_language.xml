@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingLanguageActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select the language to use"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:id="@+id/Ll_test"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView"
+            android:orientation="vertical"
+            android:background="@drawable/shape_language"
+            android:layout_width="180dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:layout_height="112dp">
+
+            <ImageButton
+                android:id="@+id/btn_english"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ob_english" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:text="English"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/Ll_creole"
+            android:layout_width="180dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="112dp"
+            android:layout_toRightOf="@+id/Ll_test"
+            android:layout_below="@+id/textView"
+            android:background="@drawable/shape_language"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="70dp"
+                android:id="@+id/btn_creole"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ob_creole" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:text="English"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ll_france"
+        android:layout_width="180dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/shape_language"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ob_france" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="France"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ic_button03"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Gone"
+            android:layout_width="match_parent"
+            android:text="Confirm"
+            android:visibility="visible"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_blur"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

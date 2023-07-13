@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NatcashBank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ob_fragment01">Easy to use, high security, support multiple platforms. Payment, transfer money anytime, anywhere !</string>
+    <string name="ob_phone01">These Terms of Service reflect the way Google’s business works, the laws that apply to our company, and certain things we’ve always believed to be true.</string>
+    <string name="ob_phone02">Besides these terms, we also publish a Privacy Policy. Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export, and delete your information.</string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>
